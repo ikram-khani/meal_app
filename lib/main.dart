@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold)),
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: Colors.blueGrey,
-          accentColor: Color.fromRGBO(247, 208, 217, 1),
+          accentColor: Color.fromARGB(255, 234, 184, 195),
         ),
         canvasColor: const Color.fromRGBO(255, 254, 229, 1),
         textTheme: ThemeData.light().textTheme.copyWith(
